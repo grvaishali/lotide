@@ -12,15 +12,12 @@ const countOnly = function (allItems, itemsToCount) {
   for (const item of allItems) {
     if (itemsToCount[item]) {
       if (results[item]) {
-        console.log(results);
         results[item] += 1;
-        console.log(results);
       } else {
         results[item] = 1;
       }
     }
   }
-  console.log(results);
   return results;
 }
 
