@@ -1,0 +1,22 @@
+{
+  "name": "chalk-test",
+  "version": "1.0.1",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing123"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "vaishali",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  }
+}
